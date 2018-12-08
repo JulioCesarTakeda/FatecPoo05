@@ -9,9 +9,9 @@ import java.util.ArrayList;
 public class DataBaseConnector {
 
     private static final String DRIVER = "org.apache.derby.jdbc.ClientDriver";
-    private static final String URL = "jdbc:derby://localhost:1527/bd_bikes";
-    private static final String USER = "root";
-    private static final String PASS = "root";
+    private static final String URL = "jdbc:derby://localhost:1527/Bikeup";
+    private static final String USER = "Admin";
+    private static final String PASS = "admin";
 
     static ArrayList<Object[]> getQuery(String SQL, Object[] parameters)
             throws Exception {
